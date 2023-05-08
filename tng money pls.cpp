@@ -830,6 +830,7 @@ int main(){
 class Student{
     // make Person class a friend of Student class 
     // grant Student class access to Person class private members
+    // i terbalik alrdy, should be class Person{ friend class Student;} 
     friend class Person;
     private:
         int studentID;
